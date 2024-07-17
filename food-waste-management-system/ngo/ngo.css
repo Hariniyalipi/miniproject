@@ -1,0 +1,52 @@
+
+
+/* Basic styling for the NGO dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section.requests {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #06C167;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #04a35d;
+}
